@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .product {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            color: #333;
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .product .price {
+            font-size: 1.1rem;
+            color: #e63946;
+            margin: 10px 0;
+        }
+
+        .product button {
+            padding: 10px 15px;
+            background-color: #0288d1;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #026aa7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Loja Online do Vinícius 
+Aqui é só pra quem pode</h1>
+    </header>
+
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqtDGhzE9F5fLClbSu7i6haRxLBobUKwpjsg&s" alt="Produto 1">
+                <h3>Mito</h3>
+                <p>Precisa nem de comentarios.</p>
+                <div class="price">R$ 100,000,00</div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product">
+                <img src="https://www.remessaonline.com.br/blog/wp-content/uploads/2023/10/notion.jpg.optimal.jpg" alt="Produto 2">
+                <h3>Template trabalhado do Vinícius</h3>
+                <p>Template de Treinos Personalizado – Organize e Supere Seus Limites!
+
+Alcance seus objetivos na academia com o Template de Treinos Personalizado, uma ferramenta prática para quem quer mais organização e resultados.
+
+✨ O que você pode fazer com ele?
+
+Planejar seus treinos semanais de forma estratégica;
+Registrar exercícios, pesos, séries e repetições;
+Definir metas e acompanhar seu progresso diário;
+Manter o foco e superar seus limites com disciplina.
+✔️ Ideal para iniciantes e avançados que desejam evoluir no mundo fitness! Disponível para download ou impressão, perfeito para qualquer rotina.
+
+💪 Transforme seus treinos hoje mesmo com essa solução prática e eficiente!.</p>
+                <div class="price">R$ 7000,000,00</div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product">
+                <img src="https://www.gsuplementos.com.br/upload/produto/imagem/top-whey-protein-concentrado-1kg-growth-supplements-19.webp" alt="Produto 3">
+                <h3>Uei de 1kg da grofi</h3>
+                <p>NAo compre e se arrependa
+ANTENCAO  
+trembolona na composicao .</p>
+                <div class="price">R$ 10,00</div>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Loja Online. Todos os direitos reservados pro sacana do vini.</p>
+    </footer>
+</body>
+</html>
